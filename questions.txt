@@ -3,11 +3,14 @@ What is the capital of Paraguay?
     b. Asuncion
     c. Nemby
     d. Ciudad del Este
+    b
+    Ascuncion
 What is the capital of Eritrea?
     a. Adi Keyh
     b. Akordat
     c. Mitsiwa
     d. Asmara
+
 What is the capital of Greece?
     a. Corinth
     b. Piraeus
@@ -23,4 +26,38 @@ What is the capital of Tuvalu?
     b. Funafuti
     c. Teava
     d. Vaiaku
-What is the capital of Tanzania?
+What is the capital of Bangladesh?
+    a. Dhaka
+    b. Bogura
+    c. Chattogram
+    d. Faridpur
+What is the capital of Peru?
+    a. Cusco
+    b. Iquitos
+    c. Lima
+    d. Chicalayo
+What is the capital of Sweden?
+    a. Uppsala
+    b. Uppsala
+    c. Halmstad
+    d. Stockholm
+What is the capital of Yemen?
+    a. Al Bayda
+    b. Mukalla
+    c. Sana'a
+    d. Lahij
+What is the capital of Switzerland?
+    a. Bern
+    b. Zurich
+    c. Geneva
+    d. Lugano
+What is the capital of Saudi Arabia?
+    a. Madinah
+    b. Tabuk
+    c. Dammam
+    d. Riyadh
+What is the capital of Kazakhstan?
+    a. Astana
+    b. Aktau
+    c. Aktobe
+    d. Almaty
