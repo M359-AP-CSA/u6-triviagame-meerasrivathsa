@@ -1,63 +1,85 @@
+12
 What is the capital of Paraguay?
-    a. San Lorenzo
-    b. Asuncion
-    c. Nemby
-    d. Ciudad del Este
-    b
-    Ascuncion
+a. San Lorenzo
+b. Asuncion
+c. Nemby
+d. Ciudad del Este
+b
+10
 What is the capital of Eritrea?
-    a. Adi Keyh
-    b. Akordat
-    c. Mitsiwa
-    d. Asmara
-
+a. Adi Keyh
+b. Akordat
+c. Mitsiwa
+d. Asmara
+d
+10
 What is the capital of Greece?
-    a. Corinth
-    b. Piraeus
-    c. Athens
-    d. Patras
+a. Corinth
+b. Piraeus
+c. Athens
+d. Patras
+c
+10
 What is the capital of Japan?
-    a. Tokyo
-    b. Osaka
-    c. Kyoto
-    d. Yokohama
+a. Tokyo
+b. Osaka
+c. Kyoto
+d. Yokohama
+a
+10
 What is the capital of Tuvalu?
-    a. Asau
-    b. Funafuti
-    c. Teava
-    d. Vaiaku
+a. Asau
+b. Funafuti
+c. Teava
+d. Vaiaku
+b
+10
 What is the capital of Bangladesh?
-    a. Dhaka
-    b. Bogura
-    c. Chattogram
-    d. Faridpur
+a. Dhaka
+b. Bogura
+c. Chattogram
+d. Faridpur
+a
+10
 What is the capital of Peru?
-    a. Cusco
-    b. Iquitos
-    c. Lima
-    d. Chicalayo
+a. Cusco
+b. Iquitos
+c. Lima
+d. Chicalayo
+c
+10
 What is the capital of Sweden?
-    a. Uppsala
-    b. Uppsala
-    c. Halmstad
-    d. Stockholm
+a. Uppsala
+b. Uppsala
+c. Halmstad
+d. Stockholm
+d
+10
 What is the capital of Yemen?
-    a. Al Bayda
-    b. Mukalla
-    c. Sana'a
-    d. Lahij
+a. Al Bayda
+b. Mukalla
+c. Sana'a
+d. Lahij
+c
+10
 What is the capital of Switzerland?
-    a. Bern
-    b. Zurich
-    c. Geneva
-    d. Lugano
+a. Bern
+b. Zurich
+c. Geneva
+d. Lugano
+a
+10
 What is the capital of Saudi Arabia?
-    a. Madinah
-    b. Tabuk
-    c. Dammam
-    d. Riyadh
+a. Madinah
+b. Tabuk
+c. Dammam
+d. Riyadh
+d
+10
 What is the capital of Kazakhstan?
-    a. Astana
-    b. Aktau
-    c. Aktobe
-    d. Almaty
+a. Astana
+b. Aktau
+c. Aktobe
+d. Almaty
+a
+10
