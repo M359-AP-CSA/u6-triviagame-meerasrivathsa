@@ -28,7 +28,7 @@ public class Question {
 
         public String toString(){
                 String str = "";
-                str += question + "\n" + answerOne + answerTwo + answerThree + answerFour + "\n" + correctAnswer + pointValue;
+                str += question + "\n" + answerOne + "\n" + answerTwo + "\n"+ answerThree + "\n" + answerFour + "\n" + correctAnswer + "\n" + pointValue;
                 return str;
         }
 

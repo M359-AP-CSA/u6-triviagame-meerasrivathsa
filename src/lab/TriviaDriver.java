@@ -6,6 +6,13 @@ public class TriviaDriver {
         // create a TriviaGame variable
         // Ex. TriviaGame game = newTriviaGame();
         // game.readData(); <-- fill in all data
+        TriviaGame game = new TriviaGame();
+        //game.readData();
+        game.fillArray();
+
+        //for (int i = 0; i < questionArray.length; i++){
+            //System.out.println(questionArray[i]);
+        //}
 
 
     }
