@@ -17,23 +17,10 @@ public class TriviaGame {
         this.questionArray = new Question[12];
 
     }
-    public void readData() throws IOException, FileNotFoundException {
-
-        Scanner inF = new Scanner (new File("questions.txt"));
-        String question = inF.nextLine();
-        String answerOne = inF.nextLine();
-        String answerTwo = inF.nextLine();
-        String answerThree = inF.nextLine();
-        String answerFour = inF.nextLine();
-        String correctAnswer = inF.nextLine();
-        int pointValue = inF.nextInt();
-
-        Question FirstQuestion = new Question(question, answerOne, answerTwo, answerThree, answerFour, correctAnswer, pointValue);
-        System.out.println(FirstQuestion);
-    }
     public void fillArray() throws IOException, FileNotFoundException{
+        Scanner questionScanner = new Scanner(new File("questions.txt"));
+
         for (int i = 0; i < 12; i++){
-            Scanner questionScanner = new Scanner(new File("questions.txt"));
             String question = questionScanner.nextLine();
             String answerOne = questionScanner.nextLine();
             String answerTwo = questionScanner.nextLine();
@@ -41,14 +28,17 @@ public class TriviaGame {
             String answerFour = questionScanner.nextLine();
             String correctAnswer = questionScanner.nextLine();
             int pointValue = questionScanner.nextInt();
-            if (questionScanner.hasNextLine()){
+            if (questionScanner.hasNextLine()) {
                 questionScanner.nextLine();
             }
+
+            Question newQuestion = new Question(question, answerOne, answerTwo, answerThree, answerFour, correctAnswer, pointValue);
+
+            questionArray[i] = newQuestion;
+            System.out.println(newQuestion);
         }
     }
-    public void printQuestions() throws IOException, FileNotFoundException{
-        System.out.println(questionArray);
-    }
+
 
 
 
