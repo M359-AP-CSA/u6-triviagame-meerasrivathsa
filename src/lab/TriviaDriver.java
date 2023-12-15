@@ -11,9 +11,19 @@ public class TriviaDriver {
         // game.readData(); <-- fill in all data
         TriviaGame game = new TriviaGame();
 
+        //game.fillArray();
+        Scanner input = new Scanner(System.in);
+        System.out.println("Hi welcome to trivia, what is your name?");
+        String name = input.nextLine();
+        System.out.println("Good luck " + name + ", your game is starting now!");
         game.fillArray();
+        System.out.println(questionArray[1]);
+
+
+
+
+
 
 
     }
 }
-0

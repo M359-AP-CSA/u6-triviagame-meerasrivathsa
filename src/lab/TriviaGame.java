@@ -17,7 +17,7 @@ public class TriviaGame {
         this.questionArray = new Question[12];
 
     }
-    public void fillArray() throws IOException, FileNotFoundException{
+    public <questionArray> void fillArray() throws IOException, FileNotFoundException{
         Scanner questionScanner = new Scanner(new File("questions.txt"));
 
         for (int i = 0; i < 12; i++){
@@ -37,7 +37,11 @@ public class TriviaGame {
             questionArray[i] = newQuestion;
             System.out.println(newQuestion);
         }
+
+
+
     }
+
 
 
 
