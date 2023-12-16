@@ -1,6 +1,10 @@
 package lab;
 import java.util.Scanner;
 import java.io.*;
+import java.util.Collections;
+import java.util.List;
+import java.util.Arrays;
+import java.util.ArrayList;
 
 public class TriviaGame {
     // this class is like a Student class
@@ -12,6 +16,14 @@ public class TriviaGame {
 
     public static Question[] questionArray;
     private int currentScore = 0;
+    private int currentCorrectAnswers = 0;
+    private int currentIncorrectAnswers = 0;
+    private int currentStreak = 0;
+    public static int i = 0;
+    private int currentPoints;
+    private double correctPercentage;
+
+
 
     public TriviaGame(){
         this.questionArray = new Question[12];
@@ -35,11 +47,55 @@ public class TriviaGame {
             Question newQuestion = new Question(question, answerOne, answerTwo, answerThree, answerFour, correctAnswer, pointValue);
 
             questionArray[i] = newQuestion;
-            System.out.println(newQuestion);
+           List<Question> list = new ArrayList<>(Arrays.asList(questionArray));
+            Collections.shuffle(list);
+            questionArray = list.toArray(new Question[0]);
         }
 
 
 
+    }
+    //public static void shuffleQuestions(){
+
+
+
+
+    public void answerCheck(String userAnswer, int i){
+        if(userAnswer.equalsIgnoreCase(questionArray[i].getCorrectAnswer())){
+            System.out.println("That is the right answer!");
+            currentScore+= 10;
+            currentCorrectAnswers++;
+            currentStreak++;
+            currentPoints = currentCorrectAnswers * 10;
+
+
+
+
+        }
+        else {
+            System.out.println("That is not correct");
+            currentIncorrectAnswers++;
+            currentStreak = 0;
+            currentPoints = currentCorrectAnswers * 10;
+        }
+
+        System.out.println("Current Score: " + currentScore);
+        System.out.println("Correct Answers: " + currentCorrectAnswers);
+        System.out.println("Incorrect Answers: " + currentIncorrectAnswers);
+        System.out.println("Current Answer Streak: " + currentStreak);
+        System.out.println("\n");
+    }
+    public boolean continueCheck(String continueGame){
+        if (continueGame.equalsIgnoreCase("yes")){
+            return true;
+        }
+        else{
+
+            System.out.println("Final Game Stats:" + "\n" + "Total Points Earned: " + currentPoints + "\n" + "Points Gained " + currentCorrectAnswers +
+                    "\n" + "Points Lost: " + currentIncorrectAnswers + "\n" + "Percent of correct answers:" + correctPercentage);
+            return false;
+
+        }
     }
 
 
